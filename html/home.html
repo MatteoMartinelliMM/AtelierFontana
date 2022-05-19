@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../dist/output.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Store",
+            "image": [
+                "./img/sposa_full.jpg",
+                "./img/scozzese_full.jpg",
+                "./img/scozzese_single.jpg"
+            ],
+            "name": "Atelier Fontana",
+            "description": "Atelier Fontana, abiti su misura dalla A alla Z, dalla scelta della stoffa alla produzione del cartamodello alla realizzazione del tuo sogno.",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Via del Molino 5",
+                "addressLocality": "Bresso",
+                "addressRegion": "MI",
+                "postalCode": "20091",
+                "addressCountry": "IT"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 45.5367605,
+                "longitude": 9.1928042
+            },
+            "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday"
+                    ],
+                    "opens": "10:00",
+                    "closes": "20:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": [
+                        "Saturday",
+                        "Friday"
+                    ],
+                    "opens": "10:00",
+                    "closes": "19:00"
+                }
+            ],
+            "url": "http://www.example.com/restaurant-locations/manhattan",
+            "telephone": "+393271675015"
+        }
+
+    </script>
+</head>
+<body class="bg-pink-500">
+<div class="flex flex-col min-h-screen">
+    <header>
+        <div class="flex bg-white-egg content-center">
+            <a href="../html/home.html">
+                <img class="flex items-center pt-[1.25rem] pl-[2.25rem] h-16 w-8 lg:h-48 w-18 " src="../img/logo.png" alt="home">
+            </a>
+            <nav class="flex items-center  justify-between  p-6 container mx-auto">
+                <div id="sectionsDiv" class="text-lg  hidden lg:flex">
+                    <a id="home" class="text-pink-atelier">Home</a>
+                    <a id="atelier" class="text-pink-atelier">Atelier</a>
+                    <a id="sartoria" class="text-pink-atelier">Servizi di sartoria</a>
+                    <a id="events" class="text-pink-atelier">Eventi</a>
+                    <a id="abouts" class="text-pink-atelier">About us</a>
+                    <a id="contacts" class="text-pink-atelier">Contatti</a>
+                </div>
+                <script type="text/javascript" src="../js/menuBuilder.js"></script>
+                <div class="flex items-center">
+                    <div class="block lg:hidden">
+                        <button class="flex items-center px-4 py-3 border rounded text-teal-500 border-teal-500 focus:outline-none">
+                            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <title>Menu</title>
+                                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+                            </svg>
+                        </button>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-grow">
+    </main>
+    <footer class="h-24 bg-white-egg">
+        <div class="px-6"><p> bizniss</p></div>
+    </footer>
+</div>
+</body>
+</html>

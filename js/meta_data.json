@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "image": [
+    "../img/sposa_full.jpg",
+    "../img/scozzese_full.jpg",
+    "../img/scozzese_single.jpg"
+  ],
+  "name": "Atelier Fontana",
+  "description": "Atelier Fontana, abiti su misura dalla A alla Z, dalla scelta della stoffa alla produzione del cartamodello alla realizzazione del tuo sogno.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via del Molino 5",
+    "addressLocality": "Bresso",
+    "addressRegion": "MI",
+    "postalCode": "20091",
+    "addressCountry": "IT"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.5367605,
+    "longitude": 9.1928042
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday",
+        "Friday"
+      ],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ],
+  "url": "http://www.example.com/restaurant-locations/manhattan",
+  "telephone": "+393271675015"
+}

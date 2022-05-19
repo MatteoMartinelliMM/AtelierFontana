@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+@layer components {
+  .text-pink-atelier {
+    @apply block mt-4 lg:inline-block text-pink-500 text-xl hover:text-purple lg:mt-0 mr-10
+  }
+
+
+}
+
+
+@tailwind utilities;
